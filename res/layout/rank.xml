@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/rank_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="排行榜" 
+        android:textSize="50dp"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="20dp"
+        />
+    <ListView
+        android:id="@+id/rank_lv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ></ListView>
+
+</LinearLayout>

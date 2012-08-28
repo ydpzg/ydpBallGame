@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    
+    >
+
+    <ImageView 
+        android:id="@+id/L_image"        
+        android:layout_width="wrap_content"
+	    android:layout_height="fill_parent"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentTop="true"
+	    android:adjustViewBounds="true"
+	    android:paddingLeft="10dp"
+        />
+        <TextView
+        android:id="@+id/L_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/L_image"      
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:id="@+id/L_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:textSize="25dip"
+        android:textColor="#ff00ff"
+        android:paddingRight="30dp"
+        />
+
+</RelativeLayout >
